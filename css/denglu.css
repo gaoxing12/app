@@ -3,11 +3,15 @@
 	background-size: 100%;
 }
 .mui-content{
-	background: pink;
+	width: 90%;
+	margin: 0 auto;
+	overflow: auto;
+	background-color: #fff;
+	/*background: pink;*/
 }
 #screen { 
 	width: 100%; 
-	height:150px; 
+	height:200px; 
 	position: relative;
 	margin: 0 auto;
 	vertical-align: bottom;
@@ -18,15 +22,16 @@
 	top:0px; 
 	width:100%; 
 	height:100%; 
-	}
-#screen p {
-	color:white;
-	font:bold 14px;
-	}
+}
+#inner>div{
+	width: 20px;
+	height:20px;
+	border-radius: 50%;
+}
 .one { 
 	background:url('../img/login/a0c.png') no-repeat; 
 	background-size: 100% auto;
-	}
+}
 .two { 
 	background:url('../img/login/a0d.png') no-repeat; 
 	background-size: 100% auto;
@@ -36,30 +41,94 @@
 	background-size: 100% auto;
 	}
 .four { 
-	background:url('../img/login/a0i.png') no-repeat; 
+	background:url('../img/login/a0f.png') no-repeat; 
 	background-size: 100% auto;
 	}
 .five { 
-	background:url('../img/login/a0c.png') no-repeat; 
+	background:url('../img/login/a0g.png') no-repeat; 
 	background-size: 100% auto;
 	}
 .six { 
-	background:url('../img/login/a0c.png') no-repeat; 
+	background:url('../img/login/a0h.png') no-repeat; 
 	background-size: 100% auto;
 	}
 .seven { 
-	background:url('../img/login/a0c.png') no-repeat; 
+	background:url('../img/login/a0i.png') no-repeat; 
 	background-size: 100% auto;
 	}
 .eight { 
-	background:url('../img/login/a0c.png') no-repeat; 
+	background:url('../img/login/a0j.png') no-repeat; 
 	background-size: 100% auto;
 	}
-.nine { 
-	background:url('../img/login/a0c.png') no-repeat; 
-	background-size: 100% auto;
-	}
-.ten{ 
-	background:url('../img/login/a0c.png') no-repeat; 
-	background-size: 100% auto;
-	}
+
+/*验证码登录的按钮*/
+.dengluStyle{
+	height: 40px;
+	padding: 0 20px;
+	position: relative;
+	top: 40px;
+}
+.dengluStyle>p{
+	height: 40px;
+}
+.dengluStyle>p>img{
+	width: 40px;
+	float: left;
+}
+.dengluStyle>p>span{
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	float: right;
+	/*background: gold;*/
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	/*line-height: 20px;*/
+}
+/*多点的logo图标*/
+.duodianLogo{
+	text-align: center;
+}
+.duodianLogo>img{
+	width: 120px;
+}
+/*验证码登录的模块*/
+.yanzhenCon{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 40px;
+	/*background: red;*/
+}
+.inputBox{
+	/*background: yellow;*/
+}
+.inputBox>input::-webkit-input-placeholder{  
+    color:#B6B6B6;  
+} 
+.inputBox>input:focus{
+	color:#ff680a;
+}	
+.inputBox>input{
+	height: 50px;
+	border: none;
+	margin-bottom: 2px;	
+	text-shadow: 0px 0px 0px #000;
+    -webkit-text-fill-color: transparent;
+    padding-left: 0px;
+}
+/*.inputBox>input::placeholder{
+	color: #B6B6B6;
+}*/
+ 
+.inputBox>.xian{
+	height: 2px;
+	background-color: #EEEEEE;
+}
+/*input获取焦点的时候出现的橘黄色的线*/
+.orangeXian{
+	width: 0;
+	display: block;
+	height: 2px;
+	background-color: #ff680a;
+}

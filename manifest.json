@@ -125,5 +125,46 @@
 				}
 			}
 		}
+	},
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"html/denglu.html"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"img/login/a0j.png",
+				"img/login/desktop.ini",
+				"img/login/a0f.png",
+				"img/login/z5.png",
+				"img/login/a0p.png",
+				"fonts/mui.ttf",
+				"js/jquery-1.11.1.js",
+				"img/login/a0e.png",
+				"css/mui.css",
+				"img/login/a0i.png",
+				"img/login/qe.png",
+				"img/login/a0o.png",
+				"img/login/a0l.png",
+				"img/login/a4r.png",
+				"img/login/wj.png",
+				"img/login/a0h.png",
+				"js/mui.min.js",
+				"img/login/a0c.png",
+				"img/login/a0d.png",
+				"css/mui.min.css",
+				"css/denglu.css",
+				"js/mui.js",
+				"img/login/a0g.png",
+				"js/test.js",
+				"img/login/z6.png",
+				"README.md"
+			]
+		}
 	}
 }

@@ -7,12 +7,12 @@ var extend=function(des, src) {
   }
   return des;
 }
-var clss=['one','two','three','four','five','six','seven','eight','nine','ten'];
+var clss=['one','two','three','four','five','six','seven','eight'];
 var Ball=function (diameter,classn) {
     var ball=document.createElement("div");
     ball.className=classn;
     with(ball.style) {
-      width=height=diameter+'px';position='absolute';
+      width=height=80+'px';position='absolute';
     }
     return ball;
 }
@@ -47,7 +47,7 @@ Screen.prototype={
     initialize:function () {
         var self=this;
         self.createBalls();
-        self.timer=setInterval(function (){self.hitBalls()}, 30)
+        self.timer=setInterval(function (){self.hitBalls()}, 200)
     },
     createBalls:function () {
         var self=this, 
@@ -134,12 +134,4 @@ window.onload=function() {
     document.getElementById("inner").innerHTML='';
         sc=new Screen('inner',{ballsnum:10, spring:0.3, bounce:-0.9, gravity:0.01});
         sc.initialize();
-     getFlag('start').onclick=function () {
-         document.getElementById("inner").innerHTML='';
-         sc=new Screen('inner',{ballsnum:10, spring:0.3, bounce:-0.9, gravity:0.01});
-         sc.initialize();
-     }
-     getFlag('stop').onclick=function() {
-       clearInterval(sc.timer);
-     }
 }

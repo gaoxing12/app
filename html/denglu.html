@@ -9,11 +9,16 @@
 		<script src="../js/mui.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="../css/denglu.css"/>
 		<script src="../js/test.js"></script>
+		<script src="../js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/denglu.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			mui.init()
 		</script>
 	</head>
 	<body class="loginBody">
+		<div id="ref">
+			
+		
 		<!--背景中在进行碰撞运动的图标-->
 		<div id="screen" >
 			<div id="inner">
@@ -25,10 +30,41 @@
 				<div class="six"></div>
 				<div class="seven"></div>
 				<div class="eight"></div>
-				<div class="nine"></div>
-				<div class="ten"></div>
+			</div>
+			<div class="dengluStyle">
+				<p>
+					<img src="../img/login/a0l.png"/>
+					<span>
+						验证码登录
+					</span>
+				</p>				
+			</div>
+			<div class="duodianLogo">
+				<img src="../img/login/a0o.png"/>
 			</div>
 		</div>
-		
+		<div class="mui-content">
+		   <!--登录模块-->
+		   <!--1）验证码登录-->
+		   <div class="yanzhenCon">
+		   		<div>
+		   			<div class="inputBox">
+		   				<p class="inputTop">手机号</p>
+		   				<input type="text" class="inp_yanz" id="" placeholder="请输入您的手机号"/>
+		   				<p class="xian">
+		   					<span class="orangeXian"></span>
+		   				</p>
+		   			</div>	   			
+		   			<div class="inputBox">
+		   				<p class="inputTop">密码</p>
+		   				<input type="text" class="inp_yanz" id="yaz_passw" placeholder="请输入验证码"/>
+		   				<p class="xian">
+		   					<span class="orangeXian"></span>
+		   				</p>
+		   			</div>   			
+		   		</div>
+		   </div>
+		</div>
+		</div>
 	</body>
 </html>

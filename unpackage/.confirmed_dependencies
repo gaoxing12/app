@@ -1,1 +1,10 @@
-null
+{
+	"index.html": {
+		"resources": [
+			"html/denglu.html"
+		],
+		"refer": [
+			"html/denglu.html"
+		]
+	}
+}
