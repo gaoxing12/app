@@ -1,0 +1,13 @@
+.indexBody{
+	width: 100%;
+	height: 2000px;
+	background: red;
+}
+.saoyisao,.vip{
+	text-align: center;
+	background: yellow;
+}
+.saoyisao>span,.vip>span{
+	/*height: 20px;*/
+	display: block;
+}

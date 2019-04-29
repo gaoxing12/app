@@ -1,17 +1,21 @@
 .loginBody{
 	background-image: url(../img/login/qe.png);
 	background-size: 100%;
+	/*overflow: hidden;*/
 }
-.mui-content{
+.dengluContent{
 	width: 90%;
+	height: 340px;
 	margin: 0 auto;
 	overflow: auto;
 	background-color: #fff;
 	/*background: pink;*/
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #CCCCCC;
 }
 #screen { 
 	width: 100%; 
-	height:200px; 
+	height:160px; 
 	position: relative;
 	margin: 0 auto;
 	vertical-align: bottom;
@@ -24,8 +28,8 @@
 	height:100%; 
 }
 #inner>div{
-	width: 20px;
-	height:20px;
+	width: 15px;
+	height:15px;
 	border-radius: 50%;
 }
 .one { 
@@ -97,7 +101,7 @@
 .yanzhenCon{
 	width: 80%;
 	margin: 0 auto;
-	margin-top: 40px;
+	margin-top: 18px;
 	/*background: red;*/
 }
 .inputBox{
@@ -110,7 +114,7 @@
 	color:#ff680a;
 }	
 .inputBox>input{
-	height: 50px;
+	/*height: 50px;*/
 	border: none;
 	margin-bottom: 2px;	
 	text-shadow: 0px 0px 0px #000;
@@ -131,4 +135,127 @@
 	display: block;
 	height: 2px;
 	background-color: #ff680a;
+}
+/*input上面的文字说明*/
+.inputTop{
+	height: 20px;
+	color: #ff680a;
+	margin-bottom: 0px;
+}
+/*密码输入框*/
+#yaz_passw{
+	width: 60%;
+	/*background: yellow;*/
+}
+.mui-content .get_code{
+	/*width: 20%;*/
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 18px;
+	background: #ff680a;
+}
+/*登录的按钮*/
+.dengluBtn{
+	width: 100%;
+	border: none;
+	border-radius: 20px;
+	line-height: 30px;
+	background-color: #ff680a;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.nozuce{
+	margin-top:30px;
+	font-size: 12px;
+	text-align: center;
+}
+/*同意的复选框*/
+/*登录*/
+.agreeCheck{
+	/*width: 200px;*/
+	/*background-color: yellow;*/
+	padding-top: 0;
+	font-size: 13px;
+	height: 20px;
+	position: relative;
+	top: -5px;
+	/*background: yellow;*/
+}
+.agreeCheck>input[type="checkbox"]{
+display: inline-block;  
+vertical-align: middle;  
+width: 15px;  
+height: 15px;  
+margin-left: 5px;
+-webkit-appearance: none;  
+border: 0;  
+outline: 0 !important;  
+line-height: 20px;  
+color: #d8d8d8;
+position: absolute;
+top: 3px;
+left: 0px;
+}
+.agreeCheck>input[type=checkbox]:after  {  
+content: "";  
+display:block;  
+width: 15px;  
+height: 15px;  
+text-align: center;   
+font-size: 16px;  
+color: #fff;  
+border-radius: 2px;  
+background-color: #515e82;  
+box-sizing:border-box;  
+}
+.agreeCheck>input[type=checkbox]:checked:after  {  
+background:url(../img/login/a0m.png); 
+background-position: center;
+}
+.agreeCheck label{
+	font-size: 12px;
+	font-weight: 900;
+	font-family: "微软雅黑";
+	color: #bebebe;
+	position: absolute;
+	top: 0px;
+	left: 30px;
+}
+.agreeCheck label>a{
+	color: #ff680a;
+}
+/*保持登录结束*/
+
+/*其他的登录方式*/
+.dengluStyleContent{
+	overflow: auto;
+	margin-top: 2px;
+	background-color: #fff;
+}
+.dengluStyleBox{
+	width: 60%;
+	height: 1px;
+	background-color: #eee;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.dengluStyleBox>p{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: -9px;
+	background: #fff;
+}
+.img_row{
+	margin: 0 auto;
+	width: 60%;
+}
+.img_row>div{
+	margin-top: 30px;
+	text-align: center;
+}
+.img_row>div>img{
+	width:40%;
 }

@@ -12,7 +12,7 @@ var Ball=function (diameter,classn) {
     var ball=document.createElement("div");
     ball.className=classn;
     with(ball.style) {
-      width=height=80+'px';position='absolute';
+      width=height=55+'px';position='absolute';
     }
     return ball;
 }
