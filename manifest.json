@@ -130,7 +130,20 @@
 		"pages": {
 			"index.html": {
 				"resources": [
-					"html/denglu.html"
+					"html/denglu.html",
+					"main.html"
+				],
+				"refer": [
+					"html/my.html",
+					"html/vip.html",
+					"my.html",
+					"vip.html"
+				],
+				"priority": 0
+			},
+			"main.html": {
+				"resources": [
+					"html/main_refresh.html"
 				],
 				"refer": [],
 				"priority": 0

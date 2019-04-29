@@ -1,13 +1,10 @@
-.indexBody{
-	width: 100%;
-	height: 2000px;
-	background: red;
+/*.mui-bar-nav{
+	display: none;
+}*/
+.bosy{
+	margin-top: 0;
+	padding-top: 0;
 }
-.saoyisao,.vip{
-	text-align: center;
-	background: yellow;
-}
-.saoyisao>span,.vip>span{
-	/*height: 20px;*/
-	display: block;
+.mui-plus header.mui-bar {
+display: none;
 }

@@ -1,10 +1,24 @@
 {
 	"index.html": {
 		"resources": [
-			"html/denglu.html"
+			"html/denglu.html",
+			"main.html"
 		],
 		"refer": [
-			"html/denglu.html"
+			"html/denglu.html",
+			"html/my.html",
+			"html/vip.html",
+			"main.html",
+			"my.html",
+			"vip.html"
+		]
+	},
+	"main.html": {
+		"resources": [
+			"html/main_refresh.html"
+		],
+		"refer": [
+			"html/main_refresh.html"
 		]
 	}
 }

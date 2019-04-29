@@ -1,0 +1,89 @@
+*{
+	font-family: "微软雅黑";
+}
+.indexBody{
+	width: 100%;
+	/*height: 2000px;*/
+	background-image: url(../img/index/a6t.png);
+	/*background: red;*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+.saoyisao,.vip{
+	text-align: center;
+	/*background: yellow;*/
+}
+.saoyisao>span,.vip>span{
+	/*height: 20px;*/
+	display: block;
+	color: #fff;
+}
+.indexHeader{
+	/*background: yellow;*/
+	box-shadow: none;
+	padding-top: 10px;
+	height: 55px;
+}
+.indexHeader>a>span:nth-child(1){
+	font-size: 22px;
+}
+.indexHeader>a>span:nth-child(2){
+	font-size: 12px;
+}
+/*给页面的怎个body加上背景*/
+.mainBox{
+	padding: 0 10px;
+	background: #fff;
+	margin-top: 145px;
+	/*padding-top: 0;*/
+}
+/*导航条菜单栏*/
+.nav_menu>a{
+	text-align: center;
+	margin-left: 3%;
+	margin-top: 10px;
+}
+.nav_menu>a>span{
+	display: block;
+}
+.nav_menu>a>span:nth-child(2){
+	font-size: 13px;
+	color: #636363;
+}
+/*热门活动*/
+.mainBox>h4{
+	margin-top: 20px;
+}
+/*智能购优惠卷开始*/
+.disc_coupon>img{
+	width:60%;
+}
+.vipImg{
+	margin-top: 8px;
+}
+.vipImg>img{
+	width: 100%;
+}
+.downBox>p{
+	padding: 0 3px;
+}
+.downBox>p>img{
+	width: 100%;
+}
+.main_bottom{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.main_bottom>img{
+	width: 80%;
+}
+/*底部送到家*/
+.scan{
+	width: 30%;
+	height: 30px;
+	background: red;
+	position: fixed;
+	bottom: 0;
+	left: 50%;	
+}
