@@ -6,7 +6,7 @@
 	height: 1000px;
 	background-image: url(../img/jiFen/ui.9.png);
 	/*background-color: pink;*/
-	/*background-size: 100%;*/
+	/*background-size: 70%;*/
 	background-repeat: no-repeat;
 }
 .integrals_header{
@@ -18,11 +18,75 @@
 }
 
 .muQian{
-	background: pink;
+	/*background: pink;*/
 	padding: 0 30px;
 	color: #fff;
 }
 .muQian>p{
 	color: #fff;
-	font-size: 17px;
+	font-size: 18px;
+}
+.muQian>p:nth-child(2){
+	font-size: 43px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.muQian>p:nth-child(3){
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*tab切换*/
+.tab{
+	width: 90%;
+	margin: 0 auto;
+	background: #ccc;
+}
+.tabCaidan>a{
+	display: block;
+	background: #FAFAFA;
+	height: 40px;
+	line-height: 40px;
+	width: 33%;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	color: #636363;
+}
+.tabCaidan>a.mui-active{
+	background:#fff;
+	height: 50px;
+	line-height: 50px;
+	/*padding-top: 10px;*/
+	border-top-left-radius: 25%;
+	border-top-right-radius: 25%;
+	position: relative;
+	top: -10px;
+	color: #FF680A;
+}
+.page{	
+	border-radius: 10%;
+	padding-top: 80px;
+	/*margin-top: 50px;*/
+}
+.mui-table-view>.mui-table-view-cell>h4{
+	font-size: 14px;
+}
+.mui-table-view>.mui-table-view-cell>.mui-badge{
+	color: #FF680A;
+	background: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+.mui-table-view>.mui-table-view-cell>.dier{
+	color: #000;
+	background: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+#page3{
+	text-align: center;
+	height: 300px;
+	background: #fff;
 }
