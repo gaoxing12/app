@@ -3,7 +3,7 @@
 }
 .indexBody{
 	width: 100%;
-	height: 2000px;
+	/*height: 2000px;*/
 	background-image: url(../img/index/a6t.png);
 	/*background: red;*/
 	background-repeat: no-repeat;
@@ -12,7 +12,6 @@
 }
 .saoyisao,.vip{
 	text-align: center;
-	/*background: yellow;*/
 }
 .saoyisao>span,.vip>span{
 	/*height: 20px;*/

@@ -1,0 +1,28 @@
+.mui-title{
+	text-align: right;
+	color: #fff;
+}
+.mui-content{
+	height: 1000px;
+	background-image: url(../img/jiFen/ui.9.png);
+	/*background-color: pink;*/
+	/*background-size: 100%;*/
+	background-repeat: no-repeat;
+}
+.integrals_header{
+	color:#fff;
+	box-shadow: none;
+}
+.mui-action-back{
+	color: #fff;
+}
+
+.muQian{
+	background: pink;
+	padding: 0 30px;
+	color: #fff;
+}
+.muQian>p{
+	color: #fff;
+	font-size: 17px;
+}

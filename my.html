@@ -1,21 +1,110 @@
 <!doctype html>
 <html>
-
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="{CHARSET}">
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="css/mui.min.css" rel="stylesheet" />
-	</head>
-
-	<body>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/my.css"/>
+		<script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/mui.min.js"></script>
 		<script type="text/javascript">
 			mui.init()
 		</script>
-		<div class="mui-content">
-		    我的页面
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav mui-row mui-bar-transparent myHeader">
+		    <a class="set mui-col-xs-3">
+		      <span class="mui-icon mui-icon-gear"></span>
+		    </a>
+		    <a class="message mui-col-xs-7 vip_title_life">
+		    	<span class="mui-icon mui-icon-email"></span>
+		    </a>
+		    <a class="sweep mui-col-xs-2 mui-row">
+		        <span class="iconfont icon-saoma"></span>
+		    </a>
+		</header>
+		
+		<div class="mui-content mui-scroll-wrapper">
+			<div class="hello">	
+					<img src="img/vip/header.jpg"/>		
+				<p>
+					Hello,Candy <span>银卡会员</span>
+				</p>
+			</div>
+			<p class="center">
+				<img src="img/my/yq.png"/>
+			</p>
+		<div class="mui-scroll">	
+			<div class="mui-content myBody">
+			   <div class="myCaidan mui-row">
+			   		<a class="mui-col-xs-3">
+			   			<span>￥0.<small>00</small></span>
+			   			<span>余额</span>
+			   		</a>
+			   		<a class="mui-col-xs-3">
+			   			<span>￥0.<small>00</small></span>
+			   			<span>卡包</span>
+			   		</a>
+			   		<a class="mui-col-xs-3 jiFen" id="jiFen">
+			   			<span>10</span>
+			   			<span>积分</span>
+			   		</a>
+			   		<a class="mui-col-xs-3">
+			   			<span>0</span>
+			   			<span>优惠卷</span>
+			   		</a>
+			   </div>
+			   <!--我的订单-->
+			   	<div class="myOrder">
+			   		<h4>我的订单</h4>
+			   		<div class="orderWays">
+			   			<p>
+			   				<span><img src="img/my/yv.png"/></span>
+			   				<span>到家订单</span>
+			   			</p>
+			   			<p>
+			   				<span><img src="img/my/zc.png"/></span>
+			   				<span>门店订单</span>
+			   			</p>
+			   		</div>
+			   	</div>
+			   	 <!--常用工具-->
+			   	<div class="myTool">
+			   		<h4 class="userTool">常用工具</h4>
+			   		<div class="myCaidan mui-row">
+					   		<a class="mui-col-xs-3">
+					   			<span><img src="img/my/tool (1).png"/></span>
+					   			<span>余额</span>
+					   		</a>
+					   		<a class="mui-col-xs-3">
+					   			<span><img src="img/my/tool (2).png"/></span>
+					   			<span>卡包</span>
+					   		</a>
+					   		<a class="mui-col-xs-3">
+					   			<span><img src="img/my/tool (3).png"/></span>
+					   			<span>积分</span>
+					   		</a>
+					   		<a class="mui-col-xs-3">
+					   			<span><img src="img/my/tool (4).png"/></span>
+					   			<span>优惠卷</span>
+					   		</a>
+					</div>
+					<div class="myCaidan mui-row">
+					   		<a class="mui-col-xs-3">
+					   			<span><img src="img/my/tool (5).png"/></span>
+					   			<span>余额</span>
+					   		</a>
+					   		
+					   </div>
+					   
+			   	</div>
+			   <!--*********************-->
+			</div>
 		</div>
+		</div>
+		<!--弹性盒子结束-->
+		<script src="js/my.js" type="text/javascript" charset="utf-8"></script>
 	</body>
-
 </html>

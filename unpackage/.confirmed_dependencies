@@ -22,5 +22,10 @@
 			"erweima.html",
 			"html/denglu.html"
 		]
+	},
+	"my.html": {
+		"refer": [
+			"integrals.html"
+		]
 	}
 }
