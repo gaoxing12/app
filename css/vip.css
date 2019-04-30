@@ -3,17 +3,50 @@
 	background: red;
 }
 .vip_header{
+	line-height: 45px;
     top: 0;
     background-color: rgba(24, 165, 255, 0);
     -webkit-box-shadow: none;
             box-shadow: none;
 }
+.vip_header a{
+	color: #fff;
+}
 .vip_title_life{
 	text-align: center;
+	font-size: 21px;
+}
+.weather>p{
+	line-height: 1;
+	color: #fff;
+	font-size: 12px;
+	text-align: right;
 }
 .weather>p:nth-child(1){
-	background: yellow;
+	/*background: yellow;*/
 	margin: 0;
-	padding: 0;
-	line-height: 0;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+/*多云的图标*/
+.cloud_icon>span{
+	font-size: 28px;
+	padding-left: 3px;
+}
+/*银卡会员*/
+.yinka_vip{
+	width: 90%;
+	height: 20px;
+	line-height: 20px;
+	font-size:12px ;
+	margin-top: 12px;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 10px;
+	text-align: right;
+	padding-right: 6px;
+	position: relative;
+}
+.headerXiang{
+	position: absolute;
+	width: 10%;
 }
