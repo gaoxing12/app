@@ -1,0 +1,19 @@
+.box{
+	height: 1000px;
+	background: red;
+}
+.vip_header{
+    top: 0;
+    background-color: rgba(24, 165, 255, 0);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.vip_title_life{
+	text-align: center;
+}
+.weather>p:nth-child(1){
+	background: yellow;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}

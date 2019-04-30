@@ -18,7 +18,9 @@
 			"html/main_refresh.html"
 		],
 		"refer": [
-			"html/main_refresh.html"
+			"html/main_refresh.html",
+			"erweima.html",
+			"html/denglu.html"
 		]
 	}
 }

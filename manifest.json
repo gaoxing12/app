@@ -145,7 +145,10 @@
 				"resources": [
 					"html/main_refresh.html"
 				],
-				"refer": [],
+				"refer": [
+					"erweima.html",
+					"html/denglu.html"
+				],
 				"priority": 0
 			}
 		},
